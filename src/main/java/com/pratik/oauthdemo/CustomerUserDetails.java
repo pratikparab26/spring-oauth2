@@ -8,6 +8,11 @@ import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 
+/**
+ * 
+ * @author pratik
+ *
+ */
 public class CustomerUserDetails implements UserDetails{
 	
 	private String username;
